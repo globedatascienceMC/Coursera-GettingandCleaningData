@@ -1,21 +1,12 @@
----
-title: "Codebook"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Tidy Data Codebook
+# Tidy Data Codebook
 This is the codebook explaining the data and variables for tidydata.txt
 This is the given information about the dataset from the original source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-##Subject
+## Subject
 30 Subjects labelled with unique identifiers from 1-30
 
-##Activity
+## Activity
 Subjects performed 6 activities while wearing the smartphone:
 - WALKING  
 - WALKING_UPSTAIRS  
@@ -24,7 +15,7 @@ Subjects performed 6 activities while wearing the smartphone:
 - STANDING  
 - LAYING  
 
-##Features
+## Features
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals TimeAccelerometer-XYZ and tGyroscope-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (TimeBodyAcceleromete-XYZ and TimeGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (TimeBodyAccelerometerJerk-XYZ and TimeBodyGyroscopeJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (TimeBodyAccelerometerMagnitude, TimeGravityAccelerometerMagnitude, TimeBodyAccelerometerJerkMagnitude, TimeBodyGyroscopeMagnitude, TimeBodyGyroscopeJerkMagnitude). 
